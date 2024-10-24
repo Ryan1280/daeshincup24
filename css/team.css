@@ -1,0 +1,139 @@
+.mainlogo-small-1-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 164px;
+    height: 174px;
+    object-fit: cover;
+}
+.div {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 559px);
+}
+.div1 {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 78px);
+}
+.div2 {
+    position: absolute;
+    top: 80px;
+    left: calc(50% + 447px);
+}
+.classlist-child {
+    position: absolute;
+    top: -2px;
+    left: 279.54px;
+    border-right: 4px solid var(--color-white);
+    box-sizing: border-box;
+    width: 4px;
+    height: 1204px;
+}
+.div3 {
+    position: absolute;
+    top: 43.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.div4 {
+    position: absolute;
+    top: 156.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.div5 {
+    position: absolute;
+    top: 269.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.div6 {
+    position: absolute;
+    top: 382.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.div7 {
+    position: absolute;
+    top: 495.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.div8 {
+    position: absolute;
+    top: 608.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.div9 {
+    position: absolute;
+    top: 721.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.div10 {
+    position: absolute;
+    top: 834.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.div11 {
+    position: absolute;
+    top: 947.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.div12 {
+    position: absolute;
+    top: 1060.94px;
+    left: 0px;
+    display: inline-block;
+    width: 215px;
+    height: 64px;
+}
+.classlist {
+    position: absolute;
+    top: 297.06px;
+    left: 193px;
+    width: 281.5px;
+    height: 1200px;
+}
+.icon {
+    position: absolute;
+    top: calc(50% - 565.5px);
+    left: calc(50% - 565px);
+    width: 1130px;
+    height: 1130px;
+    object-fit: cover;
+}
+.team1html {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 1727px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-18xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
+
