@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	<link rel="stylesheet" href="gcss/team.css" />
+  	<link rel="stylesheet" href="css/team.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+</head>
+<body>
+  	
+  	<div class="team1html">
+    		<img class="mainlogo-small-1-icon" alt="" src="i/mainlogo_small.png">
+    		
+    		<div class="div">대진표</div>
+    		<div class="div1">경기 결과</div>
+    		<div class="div2"style="font-weight: bold;">팀 소개</div>
+    		<div class="classlist">
+      			<div class="classlist-child">
+      			</div>
+      			<div class="div3">2학년 1반</div>
+      			<div class="div4"style="font-weight: bold;">2학년 2반</div>
+      			<div class="div5">2학년 3반</div>
+      			<div class="div6">2학년 4반</div>
+      			<div class="div7">2학년 5반</div>
+      			<div class="div8">2학년 6반</div>
+      			<div class="div9">2학년 7반</div>
+      			<div class="div10">2학년 8반</div>
+      			<div class="div11">2학년 9반</div>
+      			<div class="div12">2학년 10반</div>
+    		</div>
+    		<img class="icon" alt="" src="i/2학년 2반.png">
+    		
+  	</div>
+  	<script>
+		// Function to handle navigation based on specified URLs
+		function navigateTo(url) {
+			window.location.href = url;
+		}
+
+		// Add click event listeners to navigation divs
+		document.querySelector('.div').addEventListener('click', () => navigateTo('list.html'));
+		document.querySelector('.div1').addEventListener('click', () => navigateTo('gamerecord.html'));
+		document.querySelector('.div2').addEventListener('click', () => navigateTo('team1.html'));
+
+		// Add click event listeners for each class div
+		document.querySelector('.div3').addEventListener('click', () => navigateTo('team1.html')); // 2학년 1반
+		document.querySelector('.div4').addEventListener('click', () => navigateTo('team2.html')); // 2학년 2반
+		document.querySelector('.div5').addEventListener('click', () => navigateTo('team3.html')); // 2학년 3반
+		document.querySelector('.div6').addEventListener('click', () => navigateTo('team4.html')); // 2학년 4반
+		document.querySelector('.div7').addEventListener('click', () => navigateTo('team5.html')); // 2학년 5반
+		document.querySelector('.div8').addEventListener('click', () => navigateTo('team6.html')); // 2학년 6반
+		document.querySelector('.div9').addEventListener('click', () => navigateTo('team7.html')); // 2학년 7반
+		document.querySelector('.div10').addEventListener('click', () => navigateTo('team8.html')); // 2학년 8반
+		document.querySelector('.div11').addEventListener('click', () => navigateTo('team9.html')); // 2학년 9반
+		document.querySelector('.div12').addEventListener('click', () => navigateTo('team10.html')); // 2학년 10반
+		document.querySelector('.mainlogo-small-1-icon').addEventListener('click', () => navigateTo('index.html'));
+
+		document.addEventListener('DOMContentLoaded', function() {
+			document.body.style.zoom = "50%";
+	  	});
+	</script>
+</body>
+</html>

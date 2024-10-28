@@ -1,0 +1,104 @@
+.mainlogo-small-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 164px;
+    height: 174px;
+    object-fit: cover;
+}
+
+.div {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 559px);
+}
+
+.b {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 78px);
+}
+
+.div1 {
+    position: absolute;
+    top: 80px;
+    left: calc(50% + 447px);
+}
+
+.middle-component-icon {
+    position: absolute;
+    top: calc(50% - 502.5px);
+    left: calc(50% - 421px);
+    width: 843px;
+    height: 1048px;
+    object-fit: cover;
+    opacity: 0.21;
+}
+
+.b1, .div2, .div3, .div4 {
+    position: absolute;
+    left: 193px;
+    display: block;  /* block으로 변경 */
+    width: auto;     /* width를 자동으로 조정 */
+    height: auto;    /* height를 자동으로 조정 */
+    padding: 10px 0; /* padding으로 상하 간격 조정 */
+}
+
+.b1 {
+    top: 341px;
+    font-size: 37px; /* 적당한 폰트 크기 */
+}
+
+.div2 {
+    top: 454px;
+}
+
+.div3 {
+    top: 566px;
+    font-weight: 300;
+}
+
+.div4 {
+    top: 679px;
+    font-weight: 300;
+}
+
+.gamerecordhtml-child {
+    position: absolute;
+    top: 311.87px;
+    left: 529px;
+    border-right: 4px solid var(--color-white);
+    box-sizing: border-box;
+    width: 4px;
+    height: 677.1px;
+}
+
+.gamerecordhtml {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 1727px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-18xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
+
+.icon {
+    position: absolute;
+    top: calc(50% - 563.5px);
+    left: calc(50% - 691px);
+    width: 1381px;
+    height: 330px;
+    object-fit: cover;
+}
+.icon1 {
+    position: absolute;
+    top: calc(50% - 191.5px);
+    left: calc(50% - 691px);
+    width: 1381px;
+    height: 330px;
+    object-fit: cover;
+}
+
