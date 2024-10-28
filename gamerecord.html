@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet" href="gcss/gamerecord.css" />
+  	<link rel="stylesheet"  href="css/gamerecord.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" />
+</head>
+<body>
+  	<div class="gamerecordhtml">
+    		<img class="mainlogo-small-icon" alt="" src="i/mainlogo_small.png">
+    		
+    		<div class="div">대진표</div>
+    		<b class="b">경기 결과</b>
+    		<div class="div1">팀 소개</div>
+    		
+    		<img class="middle-component-icon" alt="" src="i/mainlogo.png">
+    		
+    		<b class="b1">1차 경기 결과</b>
+    		<div class="div2">2차 경기 결과</div>
+    		<div class="div3">3차 경기 결과</div>
+    		<div class="div4">결승</div>
+    		
+    		<div class="gamerecordhtml-child"></div>
+    		<a href="https://youtu.be/NB0TawG4Apc"><img class="icon" alt="" src="i/1-3-7.png"></a>
+    		<a href="https://youtu.be/rLbK3dNdqU0"><img class="icon1" alt="" src="i/1-6-9.png"></a>
+    		
+  	</div>
+  	
+  	<!-- Added script starts here -->
+  	<script>
+    		// Add click event listeners for navigation
+    		document.querySelector('.mainlogo-small-icon').addEventListener('click', function() {
+      			window.location.href = 'index.html';
+    		});
+    		
+    		document.querySelector('.div').addEventListener('click', function() {
+      			window.location.href = 'list.html';
+    		});
+    		
+    		document.querySelector('.b').addEventListener('click', function() {
+      			window.location.href = 'gamerecord.html';
+    		});
+    		
+    		document.querySelector('.div1').addEventListener('click', function() {
+      			window.location.href = 'team1.html';
+    		});
+    		
+    		// Game results navigation
+    		document.querySelector('.b1').addEventListener('click', function() {
+      			window.location.href = 'gamerecord.html';
+    		});
+    		
+    		document.querySelector('.div2').addEventListener('click', function() {
+      			window.location.href = 'gamerecord2.html';
+    		});
+    		
+    		document.querySelector('.div3').addEventListener('click', function() {
+      			window.location.href = 'gamerecord3.html';
+    		});
+    		
+    		document.querySelector('.div4').addEventListener('click', function() {
+      			window.location.href = 'gamerecord4.html';
+    		});
+			document.addEventListener('DOMContentLoaded', function() {
+				document.body.style.zoom = "50%";
+		  	});
+  	</script>
+  	<!-- Added script ends here -->
+  	
+</body>
+</html>

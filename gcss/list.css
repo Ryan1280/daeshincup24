@@ -1,0 +1,19 @@
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+
+:root {
+    
+    /* fonts */
+    --font-inter: Inter;
+    
+    /* font sizes */
+    --font-size-18xl: 37px;
+    
+    /* Colors */
+    --color-white: #fff;
+    
+}

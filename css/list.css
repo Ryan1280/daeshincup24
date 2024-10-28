@@ -1,0 +1,60 @@
+.mainlogo-small-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 164px;
+    height: 174px;
+    object-fit: cover;
+}
+.b {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 559px);
+}
+.div {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 78px);
+}
+.div1 {
+    position: absolute;
+    top: 80px;
+    left: calc(50% + 447px);
+}
+.middle-component-icon {
+    position: absolute;
+    top: calc(50% - 502.5px);
+    left: calc(50% - 421px);
+    width: 843px;
+    height: 1048px;
+    object-fit: cover;
+    opacity: 0.21;
+}
+.icon {
+    position: absolute;
+    top: calc(50% - 627.5px);
+    left: calc(50% - 840px);
+    width: 1680px;
+    height: 1361.6px;
+    object-fit: cover;
+}
+.qrcode-icon {
+    position: absolute;
+    top: 269px;
+    left: 487px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.listhtml {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 1727px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-18xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
+

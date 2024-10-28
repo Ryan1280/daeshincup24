@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet" href="gcss/list.css" />
+  	<link rel="stylesheet"  href="css/list.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+</head>
+<body>
+  	<div class="listhtml">
+    		<img class="mainlogo-small-icon" alt="" src="i/mainlogo_small.png">
+    		
+    		<b class="b">대진표</b>
+    		<div class="div">경기 결과</div>
+    		<div class="div1">팀 소개</div>
+    		
+    		<img class="middle-component-icon" alt="" src="i/middle component.png">
+    		
+    		<img class="icon" alt="" src="i/2024대신컵 2학년.png">
+    		
+    		<img class="qrcode-icon" alt="" src="i/qrcode.png">
+  	</div>
+  	
+  	<!-- Added script starts here -->
+  	<script>
+    		// Add click event listeners for navigation
+    		document.querySelector('.mainlogo-small-icon').addEventListener('click', function() {
+      			window.location.href = 'index.html';
+    		});
+    		
+    		document.querySelector('.b').addEventListener('click', function() {
+      			window.location.href = 'list.html';
+    		});
+    		
+    		document.querySelector('.div').addEventListener('click', function() {
+      			window.location.href = 'gamerecord.html';
+    		});
+    		
+    		document.querySelector('.div1').addEventListener('click', function() {
+      			window.location.href = 'team1.html';
+    		});
+			document.addEventListener('DOMContentLoaded', function() {
+				document.body.style.zoom = "50%";
+		  	});
+  	</script>
+  	<!-- Added script ends here -->
+  	
+</body>
+</html>

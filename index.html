@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	
+  	<link rel="stylesheet" href="gcss/mainpage.css" />
+  	<link rel="stylesheet" href="css/mainpage.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+</head>
+<body>
+  	<div class="mainpagehtml">
+    		<img class="background-icon" alt="" src="i/background.png">
+    		
+    		<img class="mainlogo-small-icon" alt="" src="i/mainlogo_small.png">
+    		
+    		<div class="div" id="list">대진표</div>
+    		<div class="div1" id="gameRecord">경기 결과</div>
+    		<div class="div2" id="teamIntro">팀 소개</div>
+    		
+    		<div class="middle-component">
+      			<img class="mainlogo-icon" id="mainLogo" alt="" src="i/mainlogo.png">
+      			
+      			<div class="warning" id="warningClick">
+        				<div class="warning-child"></div>
+      			</div>
+      			<b class="b" id="warningText">주의 사항</b>
+      			<img class="rule-sign-icon" id="ruleSign" alt="" src="i/rule_sign.png">
+    		</div>
+    		<b class="x-ssam">대전대신고등학교 x SSAM</b>
+  	</div>
+  	
+  	<!-- Added script starts here -->
+  	<script>
+    		// Add click event listeners for navigation
+    		document.getElementById('mainLogo').addEventListener('click', function() {
+      			window.location.href = 'index.html';
+    		});
+    		
+    		document.getElementById('list').addEventListener('click', function() {
+      			window.location.href = 'list.html';
+    		});
+    		
+    		document.getElementById('gameRecord').addEventListener('click', function() {
+      			window.location.href = 'gamerecord.html';
+    		});
+    		
+    		document.getElementById('teamIntro').addEventListener('click', function() {
+      			window.location.href = 'team1.html';
+    		});
+    		
+    		document.getElementById('warningClick').addEventListener('click', function() {
+      			window.location.href = 'warning.html';
+    		});
+    		
+    		document.getElementById('warningText').addEventListener('click', function() {
+      			window.location.href = 'warning.html';
+    		});
+    		
+    		document.getElementById('ruleSign').addEventListener('click', function() {
+      			window.location.href = 'warning.html';
+    		});
+			document.addEventListener('DOMContentLoaded', function() {
+				document.body.style.zoom = "50%";
+		 	});
+  	</script>
+  	<!-- Added script ends here -->
+  	
+</body>
+</html>

@@ -1,0 +1,54 @@
+.background-icon {
+    position: absolute;
+    top: calc(50% - 863.5px);
+    left: calc(50% - 1280px);
+    width: 2560px;
+    height: 1727px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.mainlogo-small-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 164px;
+    height: 174px;
+    object-fit: cover;
+}
+.div {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 559px);
+}
+.div1 {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 78px);
+}
+.div2 {
+    position: absolute;
+    top: 80px;
+    left: calc(50% + 447px);
+}
+.p {
+    margin: 0;
+}
+.div3 {
+    position: absolute;
+    top: 287px;
+    left: 391px;
+    display: inline-block;
+    width: 1818px;
+}
+.warninghtml {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 1727px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-18xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
+

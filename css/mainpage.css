@@ -1,0 +1,96 @@
+.background-icon {
+    position: absolute;
+    top: calc(50% - 966.5px);
+    left: calc(50% - 1420px);
+    width: 2840px;
+    height: 1933px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.mainlogo-small-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 164px;
+    height: 174px;
+    object-fit: cover;
+}
+.div {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 559px);
+}
+.div1 {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 78px);
+}
+.div2 {
+    position: absolute;
+    top: 80px;
+    left: calc(50% + 447px);
+}
+.mainlogo-icon {
+    position: absolute;
+    top: calc(50% - 524px);
+    left: calc(50% - 421.5px);
+    width: 843px;
+    height: 1048px;
+    object-fit: cover;
+}
+.warning-child {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 107.5px);
+    border-radius: 41px;
+    background-color: #232323;
+    width: 215px;
+    height: 62px;
+}
+.warning {
+    position: absolute;
+    top: 811px;
+    left: calc(50% - 107.5px);
+    width: 215px;
+    height: 62px;
+}
+.b {
+    position: absolute;
+    top: 827px;
+    left: 400px;
+}
+.rule-sign-icon {
+    position: absolute;
+    top: 820px;
+    left: 352px;
+    width: 37px;
+    height: 37px;
+    object-fit: cover;
+}
+.middle-component {
+    position: absolute;
+    top: calc(50% - 618.5px);
+    left: calc(50% - 421px);
+    width: 843px;
+    height: 1048px;
+    font-size: 25px;
+    color: #fc0005;
+}
+.x-ssam {
+    position: absolute;
+    bottom: 112px;
+    left: calc(50% - 210px);
+    text-align: center;
+}
+.mainpagehtml {
+    width: 100%;
+    position: relative;
+    background-color: #000;
+    height: 1727px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-18xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+}
+
