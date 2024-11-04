@@ -87,18 +87,40 @@
 
 .icon {
     position: absolute;
-    top: calc(50% - 563.5px);
-    left: calc(50% - 691px);
-    width: 1381px;
-    height: 330px;
+    height: calc(100% - 1483px);
+    width: calc(100% - 1539px);
+    top: 863px;
+    right: 766px;
+    bottom: 620px;
+    left: 773px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
     object-fit: cover;
 }
 .icon1 {
     position: absolute;
-    top: calc(50% - 191.5px);
-    left: calc(50% - 691px);
-    width: 1381px;
-    height: 330px;
+    height: calc(100% - 1483px);
+    width: calc(100% - 1539px);
+    top: 302px;
+    right: 770px;
+    bottom: 1181px;
+    left: 769px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
     object-fit: cover;
 }
-
+.icon2 {
+    position: absolute;
+    height: calc(100% - 1483px);
+    width: calc(100% - 1539px);
+    top: 582px;
+    right: 770px;
+    bottom: 901px;
+    left: 769px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
